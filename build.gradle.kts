@@ -1,7 +1,7 @@
 import org.gradle.configurationcache.extensions.capitalized
 import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 
-group = "io.marmur.ironfurnance" // TODO: Change this to your group
+group = "io.marmur.ironfurnaces" // TODO: Change this to your group
 version = "0.1-alpha" // TODO: Change this to your addon version
 
 val mojangMapped = project.hasProperty("mojang-mapped")
@@ -29,7 +29,7 @@ addon {
     name.set(project.name.capitalized())
     version.set(project.version.toString())
     novaVersion.set(libs.versions.nova)
-    main.set("io.marmur.ironfurnance.IronFurnance") // TODO: Change this to your main class
+    main.set("io.marmur.ironfurnaces.IronFurnaces") // TODO: Change this to your main class
     authors.add("Marmur") // TODO: Set your list of authors
 }
 
