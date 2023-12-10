@@ -1,4 +1,4 @@
-package com.example
+package io.marmur.ironfurnaces
 
 import xyz.xenondevs.nova.addon.Addon
 
